@@ -16,18 +16,21 @@
 }
  
 @font-face {
-  font-family: "Roboto-Regular";
-  src: url("../fonts/Roboto-Regular.woff2");
+  font-family: "Roboto-Regular"; 
+  src: local("../fonts/Roboto-Regular.woff2"), url('https://fonts.googleapis.com/css2?family=Roboto&display=swap') format('woff2');
+  font-display: swap;
 }
 
 @font-face {
-  font-family: "Roboto-Bold";
-  src: url("../fonts/Roboto-Bold.woff2");
+  font-family: "Roboto-Bold"; 
+  src: local("../fonts/Roboto-Regular.woff2"), url('https://fonts.googleapis.com/css2?family=Roboto&display=swap') format('woff2');
+  font-display: swap;
 }  
 
 @font-face {
-  font-family: "Montserrat-SemiBold";
-  src: url("../fonts/Montserrat-SemiBold.woff2");
+  font-family: "Montserrat-SemiBold"; 
+  src: local("../fonts/Montserrat-SemiBold.woff2"), url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap') format('woff2');
+  font-display: swap;
 }
 
 html {
