@@ -15,12 +15,12 @@ const [submit, submitting] = useFormspark({
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
-  const [option, setOption] = useState("");
+  const [radio, setRadio] = useState("");
   const [message, setMessage] = useState("");
  
   const onSubmit = async (e) => {
     e.preventDefault();
-    await submit({ name, email, option, message });
+    await submit({ name, email, radio, message });
     alert("Form submitted");
   };
   const { ref, inView, entry } = useInView({threshold: .2});
@@ -83,7 +83,9 @@ const [submit, submitting] = useFormspark({
                   label="I know exactly what sort of website I need and how it should look."
                   name="option"
                   id="formRadios1"
-                  value={option} onChange={(e) => setOption(e.target.value)}
+                  value="radio1"
+                  checked={radio === "radio1"}
+                  onChange={(e) => setRadio(e.target.value)}
                 />
                 </Col> 
                 <Col xs={12} md={4}> 
@@ -93,7 +95,9 @@ const [submit, submitting] = useFormspark({
                   label="I'm not sure what is feasible and only have a vague idea of what my website could to look like. "
                   name="option"
                   id="formRadios2"
-                  value={option} onChange={(e) => setOption(e.target.value)}
+                  value="radio2"
+                  checked={radio === "radio2"}
+                  onChange={(e) => setOption(e.target.value)}
                 />
                 </Col>
                 <Col xs={12} md={4}>
@@ -103,7 +107,9 @@ const [submit, submitting] = useFormspark({
                   label="I already have a website, but I'm not happy with it and would like some changes."
                   name="option"
                   id="formRadios3"
-                  value={option} onChange={(e) => setOption(e.target.value)}
+                  value="radio3"
+                  checked={radio === "radio3"}
+                  onChange={(e) => setOption(e.target.value)}
                 />
                 </Col>
               </Row>   
