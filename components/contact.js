@@ -58,6 +58,7 @@ const [submit, submitting] = useFormspark({
               tabindex="-1"
               autocomplete="off"
             />
+            <input type="hidden" name="_email.from" value={name} />
             <Row>
               <Col xs={12} md={6}>
               <Form.Group className="mb-5" controlId="formName">
