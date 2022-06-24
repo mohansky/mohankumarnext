@@ -1,6 +1,7 @@
 /** SERVICES COMPONENT **/
 import React, { useEffect } from "react";
 import Image from "next/image";
+import {imgblurDataURL} from "../lib/constants";
 import { Container, Row, Col } from "react-bootstrap";
 import ServicesData from "../data/service.json";
 import { Icon } from '@iconify/react';
@@ -64,8 +65,11 @@ export default function Services() {
                       className="mx-auto services-img"
                       src={item.img}
                       alt={item.name}
+                      layout="intrinsic"
                       width={100}
                       height={100}
+                      placeholder="blur"
+                      blurDataURL={imgblurDataURL}
                     />
                     <div className="text-center">
                       <div className="serviceitem-title text-uppercase">

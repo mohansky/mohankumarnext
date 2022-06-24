@@ -101,7 +101,8 @@ export default function Work () {
               <Card className="border-0 ms-1 p-1">
                 <Image
                   className="p-1 mb-1 bg-body" 
-                  src={item.img} 
+                  src={item.img}
+                  layout="intrinsic"
                   width={320}
                   height={200}
                   alt={item.title}
