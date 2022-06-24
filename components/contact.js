@@ -84,8 +84,8 @@ const [submit, submitting] = useFormspark({
                   label="I know exactly what sort of website I need and how it should look."
                   name="option"
                   id="formRadios1"
-                  value="radio1"
-                  checked={radio === "radio1"}
+                  value="I know exactly what sort of website I need and how it should look."
+                  checked={radio === "I know exactly what sort of website I need and how it should look."}
                   onChange={(e) => setRadio(e.target.value)}
                 />
                 </Col> 
@@ -96,8 +96,8 @@ const [submit, submitting] = useFormspark({
                   label="I'm not sure what is feasible and only have a vague idea of what my website could to look like. "
                   name="option"
                   id="formRadios2"
-                  value="radio2"
-                  checked={radio === "radio22"}
+                  value="I'm not sure what is feasible and only have a vague idea of what my website could to look like. "
+                  checked={radio === "I'm not sure what is feasible and only have a vague idea of what my website could to look like. "}
                   onChange={(e) => setRadio(e.target.value)}
                 />
                 </Col>
@@ -108,8 +108,8 @@ const [submit, submitting] = useFormspark({
                   label="I already have a website, but I'm not happy with it and would like some changes."
                   name="option"
                   id="formRadios3"
-                  value="radio3"
-                  checked={radio === "radio3"}
+                  value="I already have a website, but I'm not happy with it and would like some changes."
+                  checked={radio === "I already have a website, but I'm not happy with it and would like some changes."}
                   onChange={(e) => setRadio(e.target.value)}
                 />
                 </Col>
