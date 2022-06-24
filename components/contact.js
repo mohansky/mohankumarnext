@@ -97,7 +97,7 @@ const [submit, submitting] = useFormspark({
                   name="option"
                   id="formRadios2"
                   value="radio2"
-                  checked={radio === "radio2"}
+                  checked={radio === "radio22"}
                   onChange={(e) => setRadio(e.target.value)}
                 />
                 </Col>
