@@ -54,7 +54,7 @@ const [submit, submitting] = useFormspark({
             <input
               type="checkbox"
               name="_honeypot"
-              style="display:none"
+              style={{display: 'none'}}
               tabindex="-1"
               autocomplete="off"
             />
