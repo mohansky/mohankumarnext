@@ -3,29 +3,39 @@ import React, { useEffect } from "react";
 import {imgblurDataURL} from "../lib/constants";
 import Image from "next/image";
 import { Container, Card, Button } from "react-bootstrap" 
-import Slider from "react-slick" 
+import Slider from "react-slick"
+import { Icon } from "@iconify/react";
 import WorkData from "../data/work.json";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
 
 
 function NextArrow(props) {
-  const { className, onClick } = props;
+  const { onClick } = props;
   return (
-    <button 
-      className={className} 
-      onClick={onClick}/>
+    <motion.button
+        className="slick-next"
+        initial={{ y: 0 }}
+        whileTap={{ scale: 0.75, opacity: 0.5 }}
+        onClick={onClick}
+      >
+        <Icon icon="ep:arrow-right-bold" width="30" height="30" />
+      </motion.button>
       
   );
 }
 
 function PrevArrow(props) {
-  const { className, onClick } = props;
+  const { onClick } = props;
   return (
-    <button 
-      className={className} 
-      onClick={onClick}
-    />
+    <motion.button
+        className="slick-prev"
+        initial={{ y: 0}}
+        whileTap={{ scale: 0.9, opacity: 0.5 }}
+        onClick={onClick}
+      >
+        <Icon icon="ep:arrow-left-bold" width="30" height="30" />
+      </motion.button>
   );
 }
 
