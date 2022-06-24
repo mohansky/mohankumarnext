@@ -4,11 +4,13 @@ import { Container, Row, Col, Form, Button } from "react-bootstrap";
 import { motion, useAnimation } from "framer-motion";
 import { useInView } from 'react-intersection-observer';
 import { useFormspark } from "@formspark/use-formspark";
+import {useRouter} from 'next/router'
 
 const FORMSPARK_FORM_ID = "w8y51DkV";
 
 export default function Contact() {
 
+const router = useRouter()
 const [submit, submitting] = useFormspark({
     formId: FORMSPARK_FORM_ID,
   });
@@ -21,7 +23,7 @@ const [submit, submitting] = useFormspark({
   const onSubmit = async (e) => {
     e.preventDefault();
     await submit({ name, email, radio, message });
-    alert("Form submitted");
+    router.push("/thankyou#contact")
   };
   const { ref, inView, entry } = useInView({threshold: .2});
   const animation = useAnimation();
