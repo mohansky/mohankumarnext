@@ -1,0 +1,41 @@
+/*********************** Navigation ***********************/ 
+  
+  .nav{
+    background-color: var(--primary-color);
+    border-bottom: 2px solid var(--accent-color);
+    // margin-top: 10rem;
+  }
+
+  .nav-item a{
+    margin: 0 1rem;
+    text-decoration: none !important;
+    transition: color 0.3s ease-in-out;
+    &:hover{
+      color: var(--accent-color)!important;
+    }
+    @media (max-width: 992px) {  
+      margin: 1rem 0 !important;  
+    } 
+  }
+
+  .navlink-border{
+    color: var(--white-color);
+    height: 3px;
+    width: 50%;
+    margin: 1rem auto 1rem auto;
+  }
+
+  
+.navbar-toggler{
+  border: none !important;
+  outline: none !important;
+  & .navbar-toggler-icon{
+    background: url('https://api.iconify.design/clarity/close-line.svg?color=white') no-repeat center center / contain !important;
+  }
+  &.collapsed{
+      outline: none !important;
+    & .navbar-toggler-icon{
+      background: url('https://api.iconify.design/clarity/bars-line.svg?color=white') no-repeat center center / contain !important;
+    }
+  }
+}

@@ -1,0 +1,139 @@
+@use 'components/header';
+@use 'components/hero';
+@use 'components/services';
+@use 'components/work';
+@use 'components/process';
+@use 'components/contact';
+@use 'components/footer';
+@use 'templates/work-post';
+
+:root {
+  --primary-color: #2A485C;
+  --accent-color: #e67748;
+  --white-color: #fff;
+  --grey-color: #707070;
+  --black-color: #000;
+}
+ 
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("../fonts/Roboto-Regular.woff2");
+}
+
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("../fonts/Roboto-Bold.woff2");
+}  
+
+@font-face {
+  font-family: "Montserrat-SemiBold";
+  src: url("../fonts/Montserrat-SemiBold.woff2");
+}
+
+html {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+  font-size: 20px;
+  @media (max-width: 992px) { 
+  scroll-padding-top: 18rem!important;
+  }  
+}
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3, h4, h5, h6{
+  font-family: 'Roboto-Bold', sans-serif;
+}
+
+p{
+  font-family: 'Roboto-Regular', sans-serif;
+}
+ 
+/*********************** General Section ***********************/
+
+::selection{
+  background-color: #2A485C;
+  color: #e67748;
+}
+
+section{ 
+  margin: 3rem 0;
+  z-index: 10;
+}
+
+.section-top{
+  padding: 5rem 0;
+}
+
+.white{
+  color: var(--white-color);
+}
+
+.accent{
+  color: var(--accent-color);
+}
+
+
+.progress-circle {
+  position: fixed;
+  bottom: 6rem;  
+  right: 1rem; 
+  width: 5rem;
+  height: 5rem; 
+}
+
+.topicon {
+  position: fixed;
+  bottom: 7.4rem;  
+  right: 2.4rem; 
+  width: 3rem;
+  height: 3rem; 
+}
+
+.topbtn{
+    outline: none;  
+    background-color: transparent;  
+    cursor: pointer;  
+    border: none; 
+}
+
+
+
+// .progress-container{
+//   height: 1rem !important;
+//   width: 0.2rem !important; 
+//   background-color: rgb(239, 152, 13) !important; 
+//   position: fixed;
+//   top: -20px;
+//   right: 10px;
+//   z-index: 2000;
+// }
+
+// .progress-bar {
+//   background-color: #2A485C;
+  
+// }
+
+// .back-to-top { 
+//   position: fixed;  
+//   bottom: 6rem;  
+//   right: 1rem; 
+//   z-index: 99;  
+//   border: 2px solid var(--accent-color);  
+//   outline: none;  
+//   background-color: transparent;  
+//   cursor: pointer;  
+//   padding: .4rem;  
+//   border-radius: 2rem;
+//   opacity: 100%;
+//   transition: opacity 0.99s;
+//   &:hover{
+//     background-color: rgba(200, 200, 200, 0.253); 
+//   }
+// }
+
+// .hide{
+//   opacity: 0;
+// }

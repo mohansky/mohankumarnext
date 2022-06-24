@@ -1,0 +1,42 @@
+/*********************** Contact Section ***********************/ 
+  
+  .hidden{
+    display: none;
+  }
+  
+  input, textarea{
+    border-radius: 0px!important; 
+    background-color: #E4E4E4!important;
+    // resize: none!important;
+  }
+  
+  #formRadios1, #formRadios2, #formRadios3{
+    border-radius: 10px!important;
+    
+    &:checked{
+      background-color: #2A485C!important;
+    }
+  }
+   
+  .btn-form{
+    background-color: var(--white-color)!important;
+    color: var(--black-color)!important;
+    border: 1px solid var(--primary-color)!important;
+    padding: 0.5rem 5rem!important;
+    border-radius: 2rem!important;
+  }
+  
+  .btn-form:hover{
+    background-color: var(--primary-color)!important;
+    color: var(--white-color)!important;
+    padding: 0.5rem 5rem!important;
+    border-radius: 2rem!important;
+  }
+
+  .footer-email{
+    color: var(--white-color);
+    text-decoration: none;
+    &:hover{
+      color: var(--accent-color);
+    }
+  }

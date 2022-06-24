@@ -1,0 +1,25 @@
+/*********************** Work Section ***********************/ 
+.work-type{
+  text-transform: uppercase;
+}
+
+.btn-work{
+  background-color: var(--white-color)!important;
+  color: var(--black-color)!important;
+  border: 1px solid var(--primary-color)!important;
+  padding: 0.2rem 1.2rem!important;
+  border-radius: 2rem!important;
+}
+
+.btn-work:hover{
+  background-color: var(--primary-color)!important;
+  color: var(--white-color)!important; 
+}
+ 
+.slick-prev:before { 
+  content: url('https://api.iconify.design/ep/arrow-left-bold.svg?color=%232a485c&width=40') !important; 
+}
+  
+.slick-next:before { 
+  content: url('https://api.iconify.design/ep/arrow-right-bold.svg?color=%232a485c&width=40') !important; 
+}
