@@ -16,10 +16,10 @@
   color: var(--white-color)!important; 
 }
  
-.slick-prev:before { 
-  content: url('https://api.iconify.design/ep/arrow-left-bold.svg?color=%232a485c&width=40') !important; 
+.slick-prev  { 
+  color: var(--primary-color) !important;
 }
   
-.slick-next:before { 
-  content: url('https://api.iconify.design/ep/arrow-right-bold.svg?color=%232a485c&width=40') !important; 
+.slick-next { 
+  color: var(--primary-color) !important; 
 }
