@@ -37,7 +37,7 @@ export default function Hero() {
       animate={{ opacity: 1 }}
       transition={{
         type: "tween",
-        duration: 4,
+        duration: 3,
         ease: "easeIn", 
       }}
       > 
@@ -49,7 +49,16 @@ export default function Hero() {
         alt={hero.hero.imgalt}
       />
       </motion.div>
-      <div id="hero" className="overlay"></div>
+      <motion.div 
+        initial={{opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{
+          type: "tween",
+          duration: 1,
+          ease: "easeIn", 
+        }}
+       id="hero" className="overlay">
+       </motion.div>
       <div className="hero-text">
         <motion.h2
           className="fw-bold mb-5"

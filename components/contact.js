@@ -97,7 +97,7 @@ const [submit, submitting] = useFormspark({
                   id="formRadios2"
                   value="radio2"
                   checked={radio === "radio2"}
-                  onChange={(e) => setOption(e.target.value)}
+                  onChange={(e) => setRadio(e.target.value)}
                 />
                 </Col>
                 <Col xs={12} md={4}>
@@ -109,7 +109,7 @@ const [submit, submitting] = useFormspark({
                   id="formRadios3"
                   value="radio3"
                   checked={radio === "radio3"}
-                  onChange={(e) => setOption(e.target.value)}
+                  onChange={(e) => setRadio(e.target.value)}
                 />
                 </Col>
               </Row>   
