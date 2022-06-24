@@ -81,7 +81,7 @@ const [submit, submitting] = useFormspark({
                   className="mb-3"
                   type="radio"
                   label="I know exactly what sort of website I need and how it should look."
-                  name="option1"
+                  name="option"
                   id="formRadios1"
                   value={option} onChange={(e) => setOption(e.target.value)}
                 />
@@ -91,7 +91,7 @@ const [submit, submitting] = useFormspark({
                   className="mb-3"
                   type="radio"
                   label="I'm not sure what is feasible and only have a vague idea of what my website could to look like. "
-                  name="option1"
+                  name="option"
                   id="formRadios2"
                   value={option} onChange={(e) => setOption(e.target.value)}
                 />
@@ -101,7 +101,7 @@ const [submit, submitting] = useFormspark({
                   className="mb-3"
                   type="radio"
                   label="I already have a website, but I'm not happy with it and would like some changes."
-                  name="option1"
+                  name="option"
                   id="formRadios3"
                   value={option} onChange={(e) => setOption(e.target.value)}
                 />
