@@ -5,6 +5,13 @@
     {
       "workitems": [
         {
+          "url": "https://nnejourneys.com/",
+          "name": "North by Northeast Journeys ",
+          "desc": "An adventure travel company in Assam India.",
+          "tools": "['Design', 'Development', 'Nextjs']",
+          "img": "/images/work/nnejourneyscom.png"
+        },
+        {
           "url": "https://deepbreatheyogastudio.com/",
           "name": "Deep Breathe Yoga Studio ",
           "desc": "Simple business site for a yoga studio in Goa.",
