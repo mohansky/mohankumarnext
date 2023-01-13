@@ -65,7 +65,7 @@ export default function Services() {
                       className="mx-auto services-img"
                       src={item.img}
                       alt={item.name}
-                      layout="intrinsic"
+                      // layout="intrinsic"
                       width={100}
                       height={100}
                       placeholder="blur"

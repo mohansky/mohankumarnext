@@ -37,8 +37,7 @@ export default function Header() {
             {navMenu.nav.map((item, index) => {
               return (
                 <Nav.Item key={index}>
-                  <Link href={item.url}>
-                    <a className="text-white fw-bold"  onClick={() => setExpanded(false)}> {item.name} </a>
+                  <Link href={item.url}  className="text-white fw-bold"  onClick={() => setExpanded(false)}> {item.name} 
                   </Link>
                   <hr className="d-md-block d-lg-none navlink-border" />
                 </Nav.Item>
