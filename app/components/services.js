@@ -13,7 +13,7 @@ export default function Services() {
           <div className="mx-auto">
             {/* <p class="mb-3">{ServicesData.description1}</p>
             <p class="mb-3">{ServicesData.description2}</p> */}
-            <p className="text-xl columns-2 gap-8 text-justify mb-10">
+            <p className="text-xl md:columns-2 gap-8 text-justify mb-10">
               Welcome to my website! I&apos;m a passionate web developer who
               thrives on pushing the boundaries of technology and design. With a
               keen eye for aesthetics and a deep understanding of the latest

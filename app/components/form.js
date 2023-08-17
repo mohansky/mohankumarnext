@@ -64,7 +64,7 @@ export default function Form() {
         </div>
 
         <div className="mb-20" controlid="formCheckbox">
-          <div className="grid grid-cols-3 gap-4">
+          <div className="grid md:grid-cols-3 gap-4">
             <div className="flex">
               <input
                 className="mt-1 form-radio text-mkblue focus:ring-white focus:outline-0 bg-gray-100 border-gray-400 focus:border-gray-500 focus:bg-white"
