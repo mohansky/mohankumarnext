@@ -1,0 +1,71 @@
+{
+  "subtitle1": "Things I've done",
+  "subtitle2": "created",
+  "workitems": [
+    {
+      "id": "1",
+      "url": "https://nnejourneys.com/",
+      "name": "North by Northeast Journeys ",
+      "desc": "An adventure travel company in Assam India.",
+      "tools": "['Design', 'Development', 'Nextjs']",
+      "img": "/images/work/nnejourneyscom.png"
+    },
+    {
+      "id": "2",
+      "url": "https://deepbreatheyogastudio.com/",
+      "name": "Deep Breathe Yoga Studio ",
+      "desc": "Simple business site for a yoga studio in Goa.",
+      "tools": "['Design', 'Development', 'Hugo']",
+      "img": "/images/work/deepbreathe-yoga-studio.jpg"
+    },
+    {
+      "id": "3",
+      "url": "https://berliner-jobcoach.de/",
+      "name": "Berliner Job Coach ",
+      "desc": "Appointment booking site for a Job coach in Berlin.",
+      "tools": "['Design', 'Development', 'Hugo']",
+      "img": "/images/work/berliner-job-coach.jpg"
+    },
+    {
+      "id": "4",
+      "url": "https://la-volotte.de/products/",
+      "name": "La Volotte",
+      "desc": "Online shop for a lovely Wool shop in Aachen.",
+      "tools": "['Design', 'Development', 'Hugo']",
+      "img": "/images/work/la-volotte.jpg"
+    },
+
+    {
+      "id": "5",
+      "url": "https://www.atmaseva.co.uk",
+      "name": "Atma Seva",
+      "desc": "Landing page for an NGO in Uttarakhand.",
+      "tools": "[ 'Development', 'Gatsby']",
+      "img": "/images/work/atma-seva.jpg"
+    },
+    {
+      "id": "6",
+      "url": "https://asianschool.bh/",
+      "name": "School website",
+      "desc": "Website for The Asian School.",
+      "tools": "['Development', 'NextJs', 'Contentful']",
+      "img": "/images/work/asianschool.jpg"
+    },
+    {
+      "id": "7",
+      "url": "https://toadlabs.in/",
+      "name": " Toadlabs Technology Inc",
+      "desc": "Business site for holographic solutions.",
+      "tools": "['Design', 'Development', 'Gatsby']",
+      "img": "/images/work/toadlabs-technology-inc.jpg"
+    },
+    {
+      "id": "8",
+      "url": "https://niiyoshiaki.netlify.app/",
+      "name": "Photography website",
+      "desc": "Imagined for a photograher.",
+      "tools": "['Design', 'Development', 'Gatsby']",
+      "img": "/images/work/niiyoshi.png"
+    }
+  ]
+}

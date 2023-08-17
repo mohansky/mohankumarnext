@@ -1,0 +1,45 @@
+{
+  "siteMetadata": [
+    { "title": "MK Web Dev" },
+    {
+      "author": {
+        "name": "Mohan Kumar",
+        "summary": "who lives and works in Bangalore building websites and other useful things."
+      }
+    },
+    { "metaimg": "/images/micon.png" },
+    {
+      "description": "Hi, I'm Mohan and I develop websites. I'm a freelance web designer based in Bangalore. I enjoy photography, travelling and a good Rasam every now and then."
+    },
+    { "siteUrl": "https://mohankumardev.netlify.app" },
+    {
+      "social": {
+        "twitter": "@mogsishere"
+      }
+    },
+    {
+      "nav": [
+        { "name": "About", "url": "/#hero" },
+        { "name": "Services", "url": "/#services" },
+        { "name": "Work", "url": "/#work" },
+        { "name": "Process", "url": "/#process" },
+        { "name": "Contact", "url": "/#contact" }
+      ]
+    },
+    {
+      "hero": {
+        "herotext": "Hi, I'm Mohan and I develop websites.",
+        "imgalt": "Mohan",
+        "icon": "ep:arrow-down-bold"
+      }
+    },
+    {
+      "footer": {
+        "footnote1": "Developed with ♥ and ♫ in Bangalore",
+        "footnote": "Built with Nextjs",
+        "copyright": "Mohan Kumar ©",
+        "email": "mohansky@gmail.com"
+      }
+    }
+  ]
+}

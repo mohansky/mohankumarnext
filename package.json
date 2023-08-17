@@ -1,0 +1,30 @@
+{
+  "name": "mohankumar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@formspark/use-formspark": "^0.1.39",
+    "@headlessui/react": "^1.7.16",
+    "autoprefixer": "10.4.14",
+    "eslint": "8.45.0",
+    "eslint-config-next": "13.4.12",
+    "framer-motion": "^10.15.0",
+    "next": "13.4.12",
+    "next-themes": "^0.2.1",
+    "postcss": "8.4.27",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "swiper": "^10.0.4",
+    "tailwindcss": "3.3.3"
+  },
+  "devDependencies": {
+    "@iconify/react": "^4.1.1",
+    "@tailwindcss/forms": "^0.5.4"
+  }
+}

@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+::selection{
+  background-color: #2A485C;
+  color: #e67748;
+}
+
+html {
+  font-family: var(--font-roboto);
+}
+
+h1, h2 {
+  font-family: var(--font-montserrat); 
+}
+
+h3, h4, h5, h6, p{
+  font-family: var(--font-roboto); 
+}
+
+ 

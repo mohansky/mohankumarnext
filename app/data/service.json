@@ -1,0 +1,22 @@
+{
+  "subtitle1": "What I do",
+  "subtitle2": "I can do",
+  "subtitle3": "for you",
+  "description1": "In technical terms, I'm a front-end developer and work with HTML, CSS and JavaScript to create interactive websites. I prefer static site generators like NextJs and GatsbyJs.",
+  "description2": "In plain words, I create that part of a website which is visible and with which you interact. Depending on your requirement and budget, I either work alone or in partner-ship with copywriters, graphic designers and back-end developers. Whichever scenario you choose, you can be sure that your website is top notch in terms of responsiveness, compatibility, performance, accessibility, security and usability.",
+  "toolsitems": [
+    { "name": "React", "icon": "logos:react" },
+    { "name": "Nextjs", "icon": "logos:nextjs-icon" },
+    { "name": "Gatsby", "icon": "logos:gatsby" },
+    { "name": "Astro", "icon": "logos:astro-icon" },
+    { "name": "Tailwindcss", "icon": "logos:tailwindcss-icon" },
+    { "name": "Bootstrap", "icon": "logos:bootstrap" },
+    { "name": "Contentful", "icon": "logos:contentful" },
+    { "name": "Prismic", "icon": "logos:prismic-icon" },
+    { "name": "Graphql", "icon": "logos:graphql" },
+    { "name": "Nodejs", "icon": "logos:nodejs-icon" },
+    { "name": "Supabase", "icon": "logos:supabase-icon" },
+    { "name": "Netlify", "icon": "logos:netlify-icon" },
+    { "name": "Vercel", "icon": "logos:vercel-icon" }
+  ]
+}
