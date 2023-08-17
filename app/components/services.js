@@ -90,7 +90,7 @@ export default function Services() {
               on every visitor. */}
             </p>
             <p className="text-xl text-center mb-10">
-             Some of the tool in my toolkit.
+             Some of the tools in my toolkit.
             </p>
             <div className="my-8 flex flex-wrap justify-center gap-8">
               {ServicesData.toolsitems.map((data) => (
