@@ -19,7 +19,7 @@ export default function Toggle() {
 
   return (
     <>
-      <div className="items-center justify-center ml-5">
+      <div className="flex items-center justify-center my-5 lg:my-0">
         <Switch
           checked={theme} 
           onChange={() => {

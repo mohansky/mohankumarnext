@@ -3,7 +3,7 @@ import { useState } from "react";
 import { Icon } from "@iconify/react";
 import MenuItems from "../data/menu.json";
 import Link from "next/link";
-import { ThemeToggle } from "./theme-toggle";
+import Toggle from "./toggle";
 
 export default function Nav() {
   const [navbar, setNavbar] = useState(false);
@@ -61,12 +61,10 @@ export default function Nav() {
                     </Link>
                   </li>
                 ))}
-                 <ThemeToggle/>
+                <Toggle />
               </ul>
-             
-            </div> 
+            </div>
           </div>
-         
         </div>
       </nav>
     </>
